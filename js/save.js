@@ -11,8 +11,8 @@ function save(){
       contactList.forEach(value => {
           if(document.getElementById('id').value == value.id){
               value.name      = document.getElementById('name').value, 
-              value.age       = document.getElementById('cpf').value, 
-              value.address   = document.getElementById('email').value, 
+              value.cpf       = document.getElementById('cpf').value, 
+              value.email   = document.getElementById('email').value, 
               value.phone     = document.getElementById('phone').value
           }
       });
